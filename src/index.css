@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    color-scheme: light dark;
+}
+
 body {
     @apply p-2 text-[#171717] dark:text-[#ededed];
 }
