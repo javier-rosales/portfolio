@@ -20,12 +20,12 @@ const ThemeSwitcher = () => {
   }
 
   return (
-    <label className='inline-flex justify-center items-center cursor-pointer p-1'>
+    <label className='inline-flex justify-center items-center cursor-pointer p-1 hover:text-[#0068d6] dark:hover:text-[#52a8ff]'>
       <input type='checkbox' onChange={toggleTheme} checked={theme === 'dark'} className='hidden' />
       {theme === 'dark' ? (
-        <Moon />
+        <Moon size='xs' />
       ) : (
-        <Sun />
+        <Sun size='xs' />
       )}
     </label>
   )

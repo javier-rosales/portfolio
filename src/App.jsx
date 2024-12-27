@@ -1,14 +1,11 @@
 import Background from './components/Background'
-import ThemeSwitcher from './components/ThemeSwitcher'
+import Header from './components/Header'
 
 const App = () => {
   return (
     <div>
       <Background />
-      <h1 className='text-3xl'>
-        Hola mundo!
-      </h1>
-      <ThemeSwitcher />
+      <Header />
     </div>
   )
 }
