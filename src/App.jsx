@@ -1,6 +1,7 @@
 import Background from './components/Background'
 import Header from './components/Header'
 import Hero from './components/Hero'
+import Projects from './components/Projects'
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
       <Background />
       <Header />
       <Hero />
+      <Projects />
     </>
   )
 }
