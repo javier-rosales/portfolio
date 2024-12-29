@@ -10,6 +10,8 @@ export default {
   plugins: [],
   darkMode: 'selector',
   safelist: [
+    "w-4",
+    "h-4",
     "w-6",
     "h-6",
     "w-7",
