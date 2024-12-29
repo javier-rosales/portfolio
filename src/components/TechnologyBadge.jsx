@@ -1,8 +1,8 @@
-import HtmlIcon from './icons/HTML'
-import CssIcon from './icons/CSS'
-import JavascriptIcon from './icons/Javascript'
+import HtmlIcon from './icons/Html'
+import CssIcon from './icons/Css'
+import JavaScriptIcon from './icons/JavaScript'
 import ReactIcon from './icons/React'
-import TailwindcssIcon from './icons/Tailwindcss'
+import TailwindcssIcon from './icons/TailwindCss'
 
 const technologyIconSize = 'xxs'
 
@@ -22,7 +22,7 @@ const technologies = [
   {
     name: 'javascript',
     displayName: 'JavaScript',
-    icon: <JavascriptIcon size={technologyIconSize} />,
+    icon: <JavaScriptIcon size={technologyIconSize} />,
     background: 'bg-[#8e730d]'
   },
   {
