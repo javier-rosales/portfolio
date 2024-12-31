@@ -9,7 +9,7 @@ const contactIconSize = 'sm'
 
 const contactLinks = [
   {
-    href: 'https://www.linkedin.com/in/francisco-javier-rosales-ben%C3%ADtez-4784b6283',
+    href: 'https://www.linkedin.com/in/francisco-javier-rosales-benitez',
     icon: <LinkedIn size={contactIconSize} />,
     text: 'LinkedIn'
   },
