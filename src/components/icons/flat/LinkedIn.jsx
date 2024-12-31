@@ -1,4 +1,4 @@
-import sizeList from './sizeList'
+import sizeList from '../sizeList'
 
 const LinkedIn = ({ size = 'md' }) => {
   return (

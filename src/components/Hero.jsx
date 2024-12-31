@@ -1,9 +1,9 @@
 import Section from './Section'
 import profileHero from '/javier-photo.webp'
 import ContactLink from './ContactLink'
-import LinkedIn from './icons/LinkedIn'
-import GitHub from './icons/GitHub'
-import Email from './icons/Email'
+import LinkedIn from './icons/flat/LinkedIn'
+import GitHub from './icons/flat/GitHub'
+import Email from './icons/flat/Email'
 
 const contactIconSize = 'sm'
 

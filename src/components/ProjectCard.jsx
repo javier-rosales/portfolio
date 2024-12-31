@@ -1,7 +1,7 @@
 import TechnologyBadge from './TechnologyBadge'
 import ProjectLink from './ProjectLink'
-import GitHub from './icons/GitHub'
-import ExternalLink from './icons/ExternalLink'
+import GitHub from './icons/flat/GitHub'
+import ExternalLink from './icons/flat/ExternalLink'
 
 const linkIconSize = 'xs'
 

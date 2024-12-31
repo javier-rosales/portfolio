@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
-import Sun from './icons/Sun'
-import Moon from './icons/Moon'
+import Sun from './icons/flat/Sun'
+import Moon from './icons/flat/Moon'
 
 const ThemeSwitcher = () => {
   const [theme, setTheme] = useState(() =>
