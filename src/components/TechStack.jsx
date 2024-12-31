@@ -7,6 +7,8 @@ import HtmlIcon from './icons/Html'
 import CssIcon from './icons/Css'
 import JavaScriptIcon from './icons/JavaScript'
 import ReactIcon from './icons/React'
+import ReactRouterIcon from './icons/ReactRouter'
+import ReduxIcon from './icons/Redux'
 import TailwindCssIcon from './icons/TailwindCss'
 import GitIcon from './icons/Git'
 import GitHubIcon from './icons/GitHub'
@@ -39,6 +41,14 @@ let techStack = {
       {
         name: 'React',
         icon: <ReactIcon size={iconSize} />
+      },
+      {
+        name: 'React Router',
+        icon: <ReactRouterIcon size={iconSize} />
+      },
+      {
+        name: 'Redux',
+        icon: <ReduxIcon size={iconSize} />
       },
       {
         name: 'Tailwind CSS',
