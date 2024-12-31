@@ -139,7 +139,7 @@ const TechStack = () => {
           />
         ))}
       </ul>
-      <div className='flex flex-wrap justify-center gap-y-6 rounded-md p-5 border bg-[#ffffff] border-[#ebebeb] dark:bg-[#1a1a1a] dark:border-[#2e2e2e]'>
+      <div className='flex flex-wrap justify-center gap-y-6 rounded-md p-5 border shadow-xl bg-[#ffffff] border-[#ebebeb] dark:bg-[#0a0a0a] dark:border-[#2e2e2e]'>
         {techStack[activeTab].items.map(({ id, ...tech }) => (
           <div
             className='basis-1/3 md:basis-1/5 flex flex-col items-center gap-1'
