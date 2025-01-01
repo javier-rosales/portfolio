@@ -15,7 +15,6 @@ import GitHubIcon from './icons/GitHub'
 import TerminalIcon from './icons/Terminal'
 import NpmIcon from './icons/Npm'
 import AstroIcon from './icons/Astro'
-import Linux from './icons/Linux'
 import ExpressIcon from './icons/Express'
 import NodeJsIcon from './icons/NodeJs'
 import MongoDbIcon from './icons/MongoDb'
@@ -84,10 +83,6 @@ let techStack = {
       {
         name: 'Astro',
         icon: <AstroIcon size={iconSize} />
-      },
-      {
-        name: 'Linux',
-        icon: <Linux size={iconSize} />
       },
       {
         name: 'Express',
