@@ -1,5 +1,5 @@
 import TechnologyBadge from './TechnologyBadge'
-import ProjectLink from './ProjectLink'
+import ButtonLink from './ButtonLink'
 import GitHub from './icons/flat/GitHub'
 import ExternalLink from './icons/flat/ExternalLink'
 
@@ -38,12 +38,12 @@ const ProjectCard = ({
           {description}
         </p>
         <div className='flex flex-wrap gap-2 mt-3'>
-          <ProjectLink
+          <ButtonLink
             icon={<GitHub size={linkIconSize} />}
             href={repoLink}
             text='Repositorio'
           />
-          <ProjectLink
+          <ButtonLink
             icon={<ExternalLink size={linkIconSize} />}
             href={liveLink}
             text='Sitio web'
