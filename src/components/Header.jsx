@@ -14,9 +14,6 @@ const Header = () => {
           <li className='hover:text-[#0068d6] dark:hover:text-[#52a8ff]'>
             <a href="#formacion">Formación</a>
           </li>
-          <li className='hover:text-[#0068d6] dark:hover:text-[#52a8ff]'>
-            <a href="#">Sobre mí</a>
-          </li>
         </ul>
         <ThemeSwitcher />
       </nav>
