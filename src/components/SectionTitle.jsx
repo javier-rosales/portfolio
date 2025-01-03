@@ -1,6 +1,6 @@
-const SectionTitle = ({ title }) => {
+const SectionTitle = ({ title, id }) => {
   return (
-    <h2 className='mb-5 md:mb-6 lg:mb-7 text-4xl md:text-5xl font-medium'>
+    <h2 id={id} className='mb-5 md:mb-6 lg:mb-7 scroll-mt-[4.5rem] text-4xl md:text-5xl font-medium'>
       {title}
     </h2>
   )

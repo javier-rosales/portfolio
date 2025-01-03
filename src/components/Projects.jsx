@@ -36,7 +36,7 @@ const projectList = [
 const Projects = () => {
   return (
     <Section>
-      <SectionTitle title='Proyectos' />
+      <SectionTitle title='Proyectos' id='proyectos' />
       <div className='flex flex-col gap-6 md:gap-8 lg:gap-10'>
         {projectList.map(({ id, ...project }) => (
           <ProjectCard

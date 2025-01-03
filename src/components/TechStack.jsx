@@ -142,7 +142,7 @@ const TechStack = () => {
   
   return (
     <Section>
-      <SectionTitle title='Habilidades' />
+      <SectionTitle title='Habilidades' id='habilidades' />
       <ul className='flex rounded-md mb-6 p-1 bg-[#ebebeb] text-[#666666] dark:bg-[#1f1f1f]'>
         {Object.keys(techStack).map(tabName => (
           <Tab

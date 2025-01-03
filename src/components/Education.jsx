@@ -88,7 +88,7 @@ const EducationItem = ({ title, date, description, links }) => {
 const Education = () => {
   return (
     <Section>
-      <SectionTitle title='Formación' />
+      <SectionTitle title='Formación' id='formacion' />
       <div className='flex flex-col gap-10 border-l border-[#a8a8a8] dark:border-[#878787] pl-4 md:pl-8'>
         {education.map(item => (
           <EducationItem

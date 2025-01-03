@@ -6,13 +6,13 @@ const Header = () => {
       <nav className='flex gap-3 md:gap-5 justify-center items-center text-sm'>
         <ul className='flex items-center gap-3 md:gap-5'>
           <li className='hover:text-[#0068d6] dark:hover:text-[#52a8ff]'>
-            <a href="#">Proyectos</a>
+            <a href="#proyectos">Proyectos</a>
           </li>
           <li className='hover:text-[#0068d6] dark:hover:text-[#52a8ff]'>
-            <a href="#">Habilidades</a>
+            <a href="#habilidades">Habilidades</a>
           </li>
           <li className='hover:text-[#0068d6] dark:hover:text-[#52a8ff]'>
-            <a href="#">Formación</a>
+            <a href="#formacion">Formación</a>
           </li>
           <li className='hover:text-[#0068d6] dark:hover:text-[#52a8ff]'>
             <a href="#">Sobre mí</a>
