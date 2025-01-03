@@ -19,6 +19,7 @@ import ExpressIcon from './icons/Express'
 import NodeJsIcon from './icons/NodeJs'
 import MongoDbIcon from './icons/MongoDb'
 import MySqlIcon from './icons/MySql'
+import TypeScriptIcon from './icons/TypeScript'
 
 const iconSize = 'xl'
 
@@ -80,6 +81,10 @@ let techStack = {
   learning: {
     displayName: 'Aprendiendo',
     items: [
+      {
+        name: 'TypeScript',
+        icon: <TypeScriptIcon size={iconSize} />
+      },
       {
         name: 'Astro',
         icon: <AstroIcon size={iconSize} />
