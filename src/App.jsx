@@ -11,7 +11,7 @@ const App = () => {
       <Background />
       <Header />
       <Hero />
-      <div className='*:mb-4'>
+      <div className='*:mb-4 md:*:mb-12'>
         <Projects />
         <TechStack />
         <Education />
