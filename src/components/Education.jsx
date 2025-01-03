@@ -2,6 +2,7 @@ import Section from './Section'
 import SectionTitle from './SectionTitle'
 import ButtonLink from './ButtonLink'
 import ExternalLinkIcon from './icons/flat/ExternalLink'
+import DocumentPdfIcon from './icons/flat/DocumentPdf'
 import fullStackOpenCertificate from '/documents/courses/full-stack-open-certificate.pdf'
 import fullStackOpenCredits from '/documents/courses/full-stack-open-credits.pdf'
 import { v4 as uuidv4 } from 'uuid'
@@ -15,12 +16,12 @@ const education = [
     description: 'Curso de Desarrollo Web Full Stack por la Universidad de Helsinki, Finlandia. Aquí reforcé mis conocimientos en React por el lado de Frontend, también aprendí Node.js y Express para el Backend, y MongoDB para las bases de datos.',
     links: [
       {
-        icon: <ExternalLinkIcon size={linkIconSize} />,
+        icon: <DocumentPdfIcon size={linkIconSize} />,
         href: fullStackOpenCertificate,
         text: 'Certificado'
       },
       {
-        icon: <ExternalLinkIcon size={linkIconSize} />,
+        icon: <DocumentPdfIcon size={linkIconSize} />,
         href: fullStackOpenCredits,
         text: 'Créditos universitarios'
       },
