@@ -37,7 +37,7 @@ const Hero = () => {
           </div>
         </div>
         <p className='text-xl md:text-2xl'>
-          Ingeniero en sistemas computacionales con enfoque en desarrollo web Frontend usando tecnologías modernas e innovadoras.
+          Ingeniero en Sistemas Computacionales con enfoque en desarrollo web frontend usando tecnologías modernas e innovadoras.
         </p>
         <div className='flex flex-wrap gap-4'>
           {contactLinks.map((contactLink, index) => (

@@ -47,7 +47,7 @@ const education = [
   {
     title: 'Ingeniería en Sistemas Computacionales',
     date: '2018 - 2023',
-    description: 'En el Tecnológico de Estudios Superiores de Cuautitlán Izcalli con especialidad en Desarrollo de Software'
+    description: 'En el Tecnológico de Estudios Superiores de Cuautitlán Izcalli con especialidad en Diseño y Desarrollo de Software.'
   }
 ].map(item => {
   const newItem = { ...item, id: uuidv4() }
