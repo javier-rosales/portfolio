@@ -11,9 +11,11 @@ const App = () => {
       <Background />
       <Header />
       <Hero />
-      <Projects />
-      <TechStack />
-      <Education />
+      <div className='*:mb-4'>
+        <Projects />
+        <TechStack />
+        <Education />
+      </div>
     </>
   )
 }
