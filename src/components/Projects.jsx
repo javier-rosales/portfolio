@@ -4,6 +4,7 @@ import ProjectCard from './ProjectCard'
 import {v4 as uuidv4} from 'uuid'
 import calculatorImg from '../assets/images/projects/calculator-desktop.webp'
 import jclimeImg from '../assets/images/projects/jclime-desktop.webp'
+import etchASketchImg from '../assets/images/projects/etch-a-sketch-desktop.webp'
 
 const projectList = [
   {
@@ -13,6 +14,14 @@ const projectList = [
     img: jclimeImg,
     repoLink: 'https://github.com/javier-rosales/jclime',
     liveLink: 'https://jclime-es.netlify.app'
+  },
+  {
+    title: 'Etch-A-Sketch',
+    description: 'Juego de dibujo en el que puedes pintar en un lienzo con el mouse. Puedes elegir el tamaño de la cuadrícula y el color del pincel.',
+    technologies: ['html', 'css', 'javascript'],
+    img: etchASketchImg,
+    repoLink: 'https://github.com/javier-rosales/etch-a-sketch',
+    liveLink: 'https://javier-rosales.github.io/etch-a-sketch'
   },
   {
     title: 'Calculadora',
