@@ -22,7 +22,7 @@ const ProjectCard = ({
           alt='Previsualización del proyecto'
         />
       </div>
-      <div className='grid grid-rows-[auto_auto_1fr_auto] gap-2.5 p-4'>
+      <div className='grid grid-rows-[auto_auto_1fr_auto] gap-2.5 p-4 md:p-5 lg:p-8'>
         <h3 className='text-xl md:text-2xl font-medium'>
           {title}
         </h3>
