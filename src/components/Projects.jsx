@@ -25,7 +25,7 @@ const projectList = [
   },
   {
     title: 'Calculadora',
-    description: 'Calculadora web hecha desde cero con las operaciones aritméticas básicas: suma, resta, multiplicacion y division.',
+    description: 'Calculadora web hecha desde cero con las operaciones aritméticas básicas: suma, resta, multiplicación y división.',
     technologies: ['html', 'css', 'javascript'],
     img: calculatorImg,
     repoLink: 'https://github.com/javier-rosales/calculator',
