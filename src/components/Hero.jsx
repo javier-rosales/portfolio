@@ -1,26 +1,33 @@
 import Section from './Section'
 import profileHero from '/javier-photo.webp'
 import ContactLink from './ContactLink'
-import LinkedIn from './icons/flat/LinkedIn'
-import GitHub from './icons/flat/GitHub'
-import Email from './icons/flat/Email'
+import LinkedInIcon from './icons/flat/LinkedIn'
+import GitHubIcon from './icons/flat/GitHub'
+import EmailIcon from './icons/flat/Email'
+import DocumentPdfIcon from './icons/flat/DocumentPdf'
+import cvPdf from '/documents/Javier_Rosales_CV.pdf'
 
 const contactIconSize = 'sm'
 
 const contactLinks = [
   {
-    href: 'https://www.linkedin.com/in/francisco-javier-rosales-benitez',
-    icon: <LinkedIn size={contactIconSize} />,
-    text: 'LinkedIn'
+    href: cvPdf,
+    icon: <DocumentPdfIcon size={contactIconSize} />,
+    text: 'Descargar CV'
+  },
+  {
+    href: 'https://www.LinkedInIcon.com/in/francisco-javier-rosales-benitez',
+    icon: <LinkedInIcon size={contactIconSize} />,
+    text: 'LinkedInIcon'
   },
   {
     href: 'https://github.com/javier-rosales',
-    icon: <GitHub size={contactIconSize} />,
-    text: 'GitHub'
+    icon: <GitHubIcon size={contactIconSize} />,
+    text: 'GitHubIcon'
   },
   {
     href: 'mailto:cyjav.dev@gmail.com',
-    icon: <Email size={contactIconSize} />,
+    icon: <EmailIcon size={contactIconSize} />,
     text: 'cyjav.dev@gmail.com'
   }
 ]
