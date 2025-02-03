@@ -16,14 +16,14 @@ const contactLinks = [
     text: 'Descargar CV'
   },
   {
-    href: 'https://www.LinkedInIcon.com/in/francisco-javier-rosales-benitez',
+    href: 'https://www.linkedin.com/in/francisco-javier-rosales-benitez',
     icon: <LinkedInIcon size={contactIconSize} />,
-    text: 'LinkedInIcon'
+    text: 'LinkedIn'
   },
   {
     href: 'https://github.com/javier-rosales',
     icon: <GitHubIcon size={contactIconSize} />,
-    text: 'GitHubIcon'
+    text: 'GitHub'
   },
   {
     href: 'mailto:cyjav.dev@gmail.com',
