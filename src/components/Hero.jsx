@@ -44,7 +44,7 @@ const Hero = () => {
           </div>
         </div>
         <p className='text-xl md:text-2xl'>
-          I build interactive and accessible <span className='font-bold text-[#003a73] dark:text-[#cce7ff]'>eLearning</span> experiences, focusing on clear course structure and <span className='font-bold text-[#003a73] dark:text-[#cce7ff]'>HTML-based interactivities</span>. I collaborate with design and QA teams to deliver well-structured, high-quality courses.
+          I build interactive and accessible <span className='font-bold text-[#00254d] dark:text-[#ebf6ff]'>eLearning</span> experiences, focusing on clear course structure and <span className='font-bold text-[#00254d] dark:text-[#ebf6ff]'>HTML-based interactivities</span>. I collaborate with design and QA teams to deliver well-structured, high-quality courses.
         </p>
         <div className='flex flex-wrap gap-4'>
           {contactLinks.map((contactLink, index) => (
