@@ -9,7 +9,7 @@ const Header = () => {
             <a href="#experience">Experience</a>
           </li>
           <li className='hover:text-[#0068d6] dark:hover:text-[#52a8ff] text-center'>
-            <a href="#proyectos">Proyectos</a>
+            <a href="#projects">Projects</a>
           </li>
           <li className='hover:text-[#0068d6] dark:hover:text-[#52a8ff] text-center'>
             <a href="#tech-stack">Tech Stack</a>

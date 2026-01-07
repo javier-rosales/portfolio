@@ -8,35 +8,38 @@ import etchASketchImg from '../assets/images/projects/etch-a-sketch-desktop.webp
 
 const projectList = [
   {
-    title: 'JClime - Pronóstico climático',
-    description: 'Aplicación web para consultar el pronóstico del clima de cualquier parte del mundo. Utiliza la API de Tomorrow.io para obtener los datos climáticos asi como la API de Google Places para obtener sugerencias de búsqueda.',
+    title: 'JClime - Weather Forecast Application',
+    description:
+      'Interactive web application focused on clear data presentation and user-driven exploration, integrating external APIs with responsive layouts and intuitive interactions.',
     technologies: ['react', 'css'],
     img: jclimeImg,
     repoLink: 'https://github.com/javier-rosales/jclime',
     liveLink: 'https://jclime-es.netlify.app'
   },
   {
-    title: 'Etch-A-Sketch',
-    description: 'Juego de dibujo en el que puedes pintar en un lienzo con el mouse. Puedes elegir el tamaño de la cuadrícula y el color del pincel.',
+    title: 'Etch-A-Sketch - Interactive Drawing Tool',
+    description:
+      'Grid-based interactive drawing experience focused on event handling, dynamic DOM updates, and real-time visual feedback through direct user input.',
     technologies: ['html', 'css', 'javascript'],
     img: etchASketchImg,
     repoLink: 'https://github.com/javier-rosales/etch-a-sketch',
     liveLink: 'https://javier-rosales.github.io/etch-a-sketch'
   },
   {
-    title: 'Calculadora',
-    description: 'Calculadora web hecha desde cero con las operaciones aritméticas básicas: suma, resta, multiplicación y división.',
+    title: 'Calculator - Interactive Logic Interface',
+    description:
+      'Interactive calculator built from scratch, focused on input validation, state management, and predictable user interactions.',
     technologies: ['html', 'css', 'javascript'],
     img: calculatorImg,
     repoLink: 'https://github.com/javier-rosales/calculator',
     liveLink: 'https://javier-rosales.github.io/calculator'
-  },
+  }
 ].map(project => ({...project, id: uuidv4()}))
 
 const Projects = () => {
   return (
     <Section>
-      <SectionTitle title='Proyectos' id='proyectos' />
+      <SectionTitle title='Projects' id='projects' />
       <div className='flex flex-col gap-8 md:gap-10 lg:gap-12'>
         {projectList.map(({ id, ...project }) => (
           <ProjectCard
