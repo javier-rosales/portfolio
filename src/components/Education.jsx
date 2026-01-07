@@ -9,45 +9,48 @@ import { v4 as uuidv4 } from 'uuid'
 
 const linkIconSize = 'xs'
 
-const education = [
+const educationData = [
   {
     title: 'Full Stack Open',
     date: '2024',
-    description: 'Curso de Desarrollo Web Full Stack por la Universidad de Helsinki, Finlandia. Aquí reforcé mis conocimientos en React por el lado de Frontend, también aprendí Node.js y Express para el Backend, y MongoDB para las bases de datos.',
+    description:
+      'University-level course by the University of Helsinki focused on modern web development. Strengthened my understanding of component-based architectures, backend services, and data-driven applications.',
     links: [
       {
         icon: <DocumentPdfIcon size={linkIconSize} />,
         href: fullStackOpenCertificate,
-        text: 'Certificado'
+        text: 'Certificate'
       },
       {
         icon: <DocumentPdfIcon size={linkIconSize} />,
         href: fullStackOpenCredits,
-        text: 'Créditos universitarios'
+        text: 'University Credits'
       },
       {
         icon: <ExternalLinkIcon size={linkIconSize} />,
         href: 'https://fullstackopen.com/en/',
-        text: 'Curso'
+        text: 'Course'
       }
     ]
   },
   {
     title: 'The Odin Project',
     date: '2023',
-    description: 'En este curso aprendí las bases de desarrollo web con HTML, CSS y especialmente JavaScript.',
+    description:
+      'Project-based curriculum covering the fundamentals of web development, with a strong emphasis on JavaScript, problem-solving, and interactive user interfaces.',
     links: [
       {
         icon: <ExternalLinkIcon size={linkIconSize} />,
         href: 'https://www.theodinproject.com/',
-        text: 'Curso'
+        text: 'Course'
       }
     ]
   },
   {
-    title: 'Ingeniería en Sistemas Computacionales',
-    date: '2018 - 2023',
-    description: 'En el Tecnológico de Estudios Superiores de Cuautitlán Izcalli con especialidad en Diseño y Desarrollo de Software.'
+    title: 'Bachelor’s Degree in Computer Systems Engineering',
+    date: '2018 – 2023',
+    description:
+      'Degree focused on software design and development at Tecnológico de Estudios Superiores de Cuautitlán Izcalli.'
   }
 ].map(item => {
   const newItem = { ...item, id: uuidv4() }
@@ -88,9 +91,9 @@ const EducationItem = ({ title, date, description, links }) => {
 const Education = () => {
   return (
     <Section>
-      <SectionTitle title='Formación' id='formacion' />
+      <SectionTitle title='Education' id='education' />
       <div className='flex flex-col gap-10 border-l border-[#a8a8a8] dark:border-[#878787] pl-4 md:pl-8'>
-        {education.map(item => (
+        {educationData.map(item => (
           <EducationItem
             key={item.id}
             {...item}

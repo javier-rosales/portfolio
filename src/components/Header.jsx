@@ -15,7 +15,7 @@ const Header = () => {
             <a href="#tech-stack">Tech Stack</a>
           </li>
           <li className='hover:text-[#0068d6] dark:hover:text-[#52a8ff] text-center'>
-            <a href="#formacion">Formación</a>
+            <a href="#education">Education</a>
           </li>
         </ul>
         <ThemeSwitcher />
