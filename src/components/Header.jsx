@@ -6,7 +6,7 @@ const Header = () => {
       <nav className='flex gap-5 md:gap-8 justify-center items-center text-sm md:text-base'>
         <ul className='flex items-center gap-5 md:gap-8'>
           <li className='hover:text-[#0068d6] dark:hover:text-[#52a8ff] text-center'>
-            <a href="#experiencia">Experiencia</a>
+            <a href="#experience">Experience</a>
           </li>
           <li className='hover:text-[#0068d6] dark:hover:text-[#52a8ff] text-center'>
             <a href="#proyectos">Proyectos</a>
