@@ -5,7 +5,7 @@ import LinkedInIcon from './icons/flat/LinkedIn'
 import GitHubIcon from './icons/flat/GitHub'
 import EmailIcon from './icons/flat/Email'
 import DocumentPdfIcon from './icons/flat/DocumentPdf'
-import cvPdf from '/documents/Javier_Rosales_CV.pdf'
+import cvPdf from '/documents/Javier_Rosales_Junior_Course_Designer.pdf'
 
 const contactIconSize = 'sm'
 
@@ -44,7 +44,7 @@ const Hero = () => {
           </div>
         </div>
         <p className='text-xl md:text-2xl'>
-          I build interactive and accessible <span className='font-bold text-[#003a73] dark:text-[#cce7ff]'>eLearning</span> experiences, focusing on clear course structure, <span className='font-bold text-[#003a73] dark:text-[#cce7ff]'>HTML-based interactivities</span>, and engaging content design. I collaborate closely with design and QA teams to deliver high-quality learning experiences.
+          I build interactive and accessible <span className='font-bold text-[#003a73] dark:text-[#cce7ff]'>eLearning</span> experiences, focusing on clear course structure and <span className='font-bold text-[#003a73] dark:text-[#cce7ff]'>HTML-based interactivities</span>. I collaborate with design and QA teams to deliver well-structured, high-quality courses.
         </p>
         <div className='flex flex-wrap gap-4'>
           {contactLinks.map((contactLink, index) => (
