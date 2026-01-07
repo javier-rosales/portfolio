@@ -41,12 +41,12 @@ const ProjectCard = ({
           <ButtonLink
             icon={<GitHub size={linkIconSize} />}
             href={repoLink}
-            text='Repositorio'
+            text='Repository'
           />
           <ButtonLink
             icon={<ExternalLink size={linkIconSize} />}
             href={liveLink}
-            text='Sitio web'
+            text='Website'
           />
         </div>
       </div>
