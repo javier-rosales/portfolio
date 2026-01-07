@@ -9,7 +9,7 @@ const Footer = () => {
     <footer className='flex justify-between items-center max-w-4xl mx-auto px-5 py-8 lg:py-10'>
       <div>
         <p className='text-sm text-[#666666] dark:text-[#a1a1a1] mb-2'>
-          Desarrollado con:
+          Built with:
         </p>
         <ul className='flex flex-col md:flex-row gap-1 md:gap-8'>
           <li className='flex gap-2 font-medium'>
