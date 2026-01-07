@@ -1,6 +1,7 @@
 import Background from './components/Background'
 import Header from './components/Header'
 import Hero from './components/Hero'
+import Experience from './components/Experience'
 import Projects from './components/Projects'
 import TechStack from './components/TechStack'
 import Education from './components/Education'
@@ -13,6 +14,7 @@ const App = () => {
       <Header />
       <Hero />
       <div className='*:mb-4 md:*:mb-12'>
+        <Experience />
         <Projects />
         <TechStack />
         <Education />
