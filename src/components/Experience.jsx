@@ -48,7 +48,7 @@ const ExperienceItem = ({ dateRange, role, company, companyDescription, summary,
       <h3 className='mb-1 text-xl md:text-2xl font-medium text-[#00254d] dark:text-[#ebf6ff]'>
         {role}
       </h3>
-      <h4 className='mb-3 text-lg md:text-xl font-thin italic text-[#00254d] dark:text-[#ebf6ff]'>
+      <h4 className='mb-3 text-lg md:text-xl font-normal italic text-[#00254d] dark:text-[#ebf6ff]'>
         {company}
       </h4>
       {
