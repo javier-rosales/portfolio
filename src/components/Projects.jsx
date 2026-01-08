@@ -14,7 +14,7 @@ const projectList = [
     technologies: ['react', 'css'],
     img: jclimeImg,
     repoLink: 'https://github.com/javier-rosales/jclime',
-    liveLink: 'https://jclime-es.netlify.app'
+    liveLink: 'https://jclime.netlify.app'
   },
   {
     title: 'Etch-A-Sketch - Interactive Drawing Tool',
