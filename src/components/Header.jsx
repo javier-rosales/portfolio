@@ -12,7 +12,7 @@ const Header = () => {
             <a href="#projects">Projects</a>
           </li>
           <li className='hover:text-[#0068d6] dark:hover:text-[#52a8ff] text-center'>
-            <a href="#tech-stack">Tech Stack</a>
+            <a href="#skills">Skills</a>
           </li>
           <li className='hover:text-[#0068d6] dark:hover:text-[#52a8ff] text-center'>
             <a href="#education">Education</a>

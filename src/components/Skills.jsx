@@ -7,30 +7,48 @@ import HtmlIcon from './icons/Html'
 import CssIcon from './icons/Css'
 import JavaScriptIcon from './icons/JavaScript'
 import ReactIcon from './icons/React'
-import ReactRouterIcon from './icons/ReactRouter'
-import ReduxIcon from './icons/Redux'
 import TailwindCssIcon from './icons/TailwindCss'
+import NodeJsIcon from './icons/NodeJs'
 import GitIcon from './icons/Git'
 import GitHubIcon from './icons/GitHub'
 import TerminalIcon from './icons/Terminal'
+import XmlIcon from './icons/Xml'
+import Scorm from './icons/Scorm'
+import ScormCloud from './icons/ScormCloud'
+import NvdaIcon from './icons/Nvda'
 import NpmIcon from './icons/Npm'
-import AstroIcon from './icons/Astro'
-import ExpressIcon from './icons/Express'
-import NodeJsIcon from './icons/NodeJs'
-import MongoDbIcon from './icons/MongoDb'
-import MySqlIcon from './icons/MySql'
-import TypeScriptIcon from './icons/TypeScript'
 
 const iconSize = 'xl'
 
-let techStack = {
-  frontend: {
-    displayName: 'Frontend',
+let skills = {
+  eLearning: {
+    displayName: 'eLearning',
     items: [
       {
         name: 'HTML',
         icon: <HtmlIcon size={iconSize} />
       },
+      {
+        name: 'XML',
+        icon: <XmlIcon size={iconSize} />
+      },
+      {
+        name: 'SCORM',
+        icon: <Scorm size={iconSize} />
+      },
+      {
+        name: 'SCORM Cloud',
+        icon: <ScormCloud size={iconSize} />
+      },
+      {
+        name: 'NVDA',
+        icon: <NvdaIcon size={iconSize} />
+      }
+    ]
+  },
+  web: {
+    displayName: 'Web',
+    items: [
       {
         name: 'CSS',
         icon: <CssIcon size={iconSize} />
@@ -44,21 +62,17 @@ let techStack = {
         icon: <ReactIcon size={iconSize} />
       },
       {
-        name: 'React Router',
-        icon: <ReactRouterIcon size={iconSize} />
-      },
-      {
-        name: 'Redux',
-        icon: <ReduxIcon size={iconSize} />
-      },
-      {
         name: 'Tailwind CSS',
         icon: <TailwindCssIcon size={iconSize} />
+      },
+      {
+        name: 'Node.js',
+        icon: <NodeJsIcon size={iconSize} />
       }
     ]
   },
   tools: {
-    displayName: 'Herramientas',
+    displayName: 'Tools',
     items: [
       {
         name: 'Git',
@@ -77,39 +91,10 @@ let techStack = {
         icon: <NpmIcon size={iconSize} />
       }
     ]
-  },
-  learning: {
-    displayName: 'Aprendiendo',
-    items: [
-      {
-        name: 'TypeScript',
-        icon: <TypeScriptIcon size={iconSize} />
-      },
-      {
-        name: 'Astro',
-        icon: <AstroIcon size={iconSize} />
-      },
-      {
-        name: 'Express',
-        icon: <ExpressIcon size={iconSize} />
-      },
-      {
-        name: 'Node.js',
-        icon: <NodeJsIcon size={iconSize} />
-      },
-      {
-        name: 'MongoDB',
-        icon: <MongoDbIcon size={iconSize} />
-      },
-      {
-        name: 'MySQL',
-        icon: <MySqlIcon size={iconSize} />
-      }
-    ]
   }
 }
 
-Object.entries(techStack).forEach(([key, { items }]) => {
+Object.entries(skills).forEach(([key, { items }]) => {
   items.forEach((tech, index) => {
     items[index].id = uuidv4()
   })
@@ -133,8 +118,8 @@ const Tab = ({ name, displayName, isActive, handleTabClick }) => {
   )
 }
 
-const TechStack = () => {
-  const [activeTab, setActiveTab] = useState('frontend')
+const Skills = () => {
+  const [activeTab, setActiveTab] = useState('eLearning')
 
   const handleTabClick = tab => {
     setActiveTab(tab)
@@ -142,20 +127,20 @@ const TechStack = () => {
   
   return (
     <Section>
-      <SectionTitle title='Tech Stack' id='tech-stack' />
+      <SectionTitle title='Skills' id='skills' />
       <ul className='flex rounded-md mb-6 p-1 bg-[#ebebeb] text-[#666666] dark:bg-[#1f1f1f]'>
-        {Object.keys(techStack).map(tabName => (
+        {Object.keys(skills).map(tabName => (
           <Tab
             key={tabName}
             name={tabName}
-            displayName={techStack[tabName].displayName}
+            displayName={skills[tabName].displayName}
             isActive={activeTab === tabName}
             handleTabClick={handleTabClick}
           />
         ))}
       </ul>
       <div className='flex flex-wrap justify-center gap-y-6 rounded-md p-5 border shadow-xl bg-[#ffffff] border-[#ebebeb] dark:bg-[#0a0a0a] dark:border-[#2e2e2e]'>
-        {techStack[activeTab].items.map(({ id, ...tech }) => (
+        {skills[activeTab].items.map(({ id, ...tech }) => (
           <div
             className='basis-1/3 md:basis-1/5 flex flex-col items-center gap-1'
             key={id}
@@ -171,4 +156,4 @@ const TechStack = () => {
   )
 }
 
-export default TechStack
+export default Skills
