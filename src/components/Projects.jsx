@@ -17,7 +17,7 @@ const projectList = [
     liveLink: 'https://jclime.netlify.app'
   },
   {
-    title: 'Etch-A-Sketch - Interactive Drawing Tool (Spanish only)',
+    title: 'Etch-A-Sketch - Interactive Drawing Tool',
     description:
       'Grid-based interactive drawing experience focused on event handling, dynamic DOM updates, and real-time visual feedback through direct user input.',
     technologies: ['html', 'css', 'javascript'],
